@@ -1,0 +1,468 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 1300px;
+    background-color: #40404079
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*==============
+    body 
+ ===============*/
+header {
+    background-color: #F18119;
+    text-transform: uppercase;
+    padding: 0.8em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFCF9;
+    color: #404040;
+}
+
+footer {
+    background-color: #F18119;
+    padding: 0.75em;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.05rem;
+    text-align: justify;
+    letter-spacing: .05em;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-main {
+    margin: 3em;
+}
+
+.project-modul {
+    border: 1px solid #404040;
+    padding: .3em 1.5em;
+    margin: 1.5em .5em;
+    background-color: #4040400e;
+    box-shadow: 0px 15px 14px -1px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    box-shadow: 0px 5px 4px -1px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.ul-in-module {
+    display: flex;
+    letter-spacing: .05em;
+    font-weight: 600;
+    line-height: 1.5;
+    justify-content: space-evenly;
+}
+
+.image,
+.project-ul,
+.project-top {
+    margin-bottom: 1em;
+}
+
+.project-bottom p {
+    padding: 0;
+}
+
+.links {
+    padding: .5em;
+    display: flex;
+    justify-content: space-between
+}
+
+/*==============
+    navbar 
+ ===============*/
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.logo img {
+    height: 120px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 .5em 0;
+    order: 0;
+}
+
+.nav-list-item {
+    list-style: none;
+    padding: .5em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404040;
+}
+
+.current-page {
+    border-bottom: 2px solid rgba(64, 64, 64, 0.5);
+    padding: 0 .25em
+}
+
+/*==============
+    footer
+ ===============*/
+
+.container-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-contact i {
+    color: #404040
+}
+
+.container-contact i:hover,
+.container-contact i:focus {
+    color: #FFFCF9
+}
+
+/*==============
+    aside
+ ===============*/
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #404040;
+    color: #FFFCF9;
+    margin: 0;
+    padding: 0;
+    order: 1;
+}
+
+aside a {
+    color: #F18119;
+    text-decoration: none;
+}
+
+aside a:hover,
+aside a:focus {
+    color: #FFFCF9;
+    border-bottom: 1px solid #FFFCF9;
+}
+
+aside ul {
+    text-align: center;
+    letter-spacing: 0.75px;
+    font-weight: 300;
+    padding: 0;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.container-icons {
+    flex-direction: row;
+    padding-bottom: .3em
+}
+
+.container-icons i {
+    padding: 1em;
+    text-align: center;
+    color: #FFFCF9
+}
+
+/*==============
+ Typography 
+ ===============*/
+
+h1 {
+    font-size: 2.7rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+}
+
+aside h1 {
+    margin: .3em;
+    padding-top: .3em
+}
+
+.header-main h1 {
+    font-size: 4.5rem;
+}
+
+.project-header-ul {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #FFFCF9;
+}
+
+.project-ul {
+    border: 1px solid #404040;
+    background-color: #404040;
+    color: #F18119;
+}
+
+.space {
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: .5em;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #FFFCF9;
+    font-weight: 600;
+    letter-spacing: .3em;
+    font-size: 1.5rem;
+}
+
+.link-to-git {
+    text-decoration: none;
+    color: #f18119;
+}
+
+.link-to-git:hover,
+.link-to-git:hover {
+    color: #404040;
+    border-bottom: 1px solid #404040;
+}
+
+.orange {
+    color: #F18119;
+    font-weight: 900;
+}
+
+/*==============
+buttons
+===============*/
+
+.git,
+.page {
+    text-decoration: none;
+    border-radius: 10%;
+    padding: .5em 1em;
+    margin: .5em;
+    text-align: center;
+}
+
+.page {
+    color: #F18119;
+    background-color: #404040;
+}
+
+.btn {
+    margin-bottom: 2em;
+}
+
+.page:hover,
+.page:focus {
+    color: #404040;
+    background-color: #f1811975;
+}
+
+.git {
+    color: #404040;
+    background-color: #F18119;
+}
+
+.git:hover,
+.git:focus {
+    color: #f18119;
+    background-color: #40404041;
+}
+
+/*==============
+    media
+ ===============*/
+@media (max-width:610px) {
+    .header-main h1 {
+        font-size: 2.25rem;
+    }
+
+    .name {
+        font-size: 1.45rem
+    }
+
+    .project-header {
+        font-size: 1.25rem;
+    }
+
+    .project-header {
+        font-size: 1rem
+    }
+
+    .ul-in-module {
+        display: flex;
+        letter-spacing: .05em;
+        font-weight: 600;
+        justify-content: space-between;
+        line-height: 1.5;
+        flex-direction: column;
+        font-size: .8rem;
+        padding-left: 1.5em;
+    }
+
+    .new-line {
+        display: block
+    }
+}
+
+@media (min-width: 1168px) {
+    .project-top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .project-ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-bottom {
+        display: flex;
+    }
+
+    .project-image {
+        width: 95%;
+    }
+
+    .ul-in-module {
+        flex-direction: column;
+        padding-left: 1em;
+    }
+
+    .ul-in-module li {
+        padding: .3em;
+    }
+
+    .project-header-ul {
+        color: #FFFCF9;
+    }
+
+
+    main {
+        flex-direction: row;
+        width: 100%;
+        padding: 0
+    }
+
+    /* navbar */
+
+    nav {
+        display: flex;
+    }
+
+    .nav-list {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-list-item a {
+        font-size: 1.5em;
+        margin: 0.8em;
+    }
+
+    /* sidebar */
+    aside {
+        width: 22%;
+        min-width: 250px;
+        justify-content: flex-start;
+        order: 0;
+        padding: 0 .5em;
+    }
+
+    aside a:hover,
+    aside a:focus {
+        color: #FFFCF9;
+    }
+
+    aside h1 {
+        padding-top: 1em 0;
+        font-size: 2em;
+    }
+
+    .new-line {
+        display: block
+    }
+
+    .logo-big {
+        max-width: 271px;
+        padding: 3em 1em 3em;
+        border-bottom: 1px solid #F18119;
+    }
+
+    .container-icons i {
+        color: #FFFCF9;
+        padding: 1.5em .5em 0;
+    }
+
+    /* main content */
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .container-main {
+        width: 75%
+    }
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .project-modul {
+        flex-direction: column;
+    }
+
+    .links {
+        justify-content: space-around;
+    }
+
+    .git {
+        margin-right: 10em;
+    }
+
+    .page {
+        margin-left: 10em;
+    }
+
+}
+
+
+/* h1 font az elején + expect és tech egymás mellé mehetne! 
