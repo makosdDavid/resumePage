@@ -14,6 +14,7 @@ img {
     display: block;
 }
 
+
 /*==============
     body 
  ===============*/
@@ -67,6 +68,7 @@ p {
     margin: 0;
 }
 
+
 /*==============
  navbar 
  ===============*/
@@ -107,6 +109,7 @@ nav {
     padding: 0 .25em
 }
 
+
 /*==============
     footer
  ===============*/
@@ -118,13 +121,14 @@ nav {
 }
 
 .container-contact i {
-    color: #404040
+    color: #FFFCF9
 }
 
 .container-contact i:hover,
 .container-contact i:focus {
-    color: #FFFCF9
+    color: #404040
 }
+
 
 /*==============
     aside
@@ -173,6 +177,7 @@ strong {
     text-align: center;
     color: #FFFCF9
 }
+
 
 /*==============
  Typography 
@@ -262,52 +267,44 @@ aside h1 {
     padding: 2em .5em;
 }
 
+
 /*==============
     media
  ===============*/
+
 @media (max-width:610px) {
     h3 {
         font-size: 1.25rem
     }
-
     .container-main-title h1 {
         font-size: 2.25rem;
     }
-
     .position-title {
         font-size: 1.2rem;
     }
-
     .name {
         font-size: 1.45rem
     }
-
 }
 
 @media (min-width: 1100px) {
-
     main {
         flex-direction: row;
         width: 100%;
         justify-content: space-between
     }
-
     /* navbar */
-
     nav {
         display: flex;
     }
-
     .nav-list {
         flex-direction: row;
         justify-content: space-between;
     }
-
     .nav-list-item a {
         font-size: 1.5em;
         margin: 0.8em;
     }
-
     /* sidebar */
     aside {
         width: 22%;
@@ -316,38 +313,32 @@ aside h1 {
         order: 0;
         padding: 0 .5em;
     }
-
     aside a:hover,
     aside a:focus {
         color: #FFFCF9;
     }
-
     aside h1 {
         padding-top: 1em 0;
         font-size: 2em;
     }
-
     .new-line {
         display: block
     }
-
     .logo-big {
         max-width: 271px;
         padding: 3em 1em 3em;
         border-bottom: 1px solid #F18119;
     }
-
     .container-icons i {
         color: #FFFCF9;
         padding: 1.5em .5em 0;
     }
-
     /* main content */
-
     .container-main {
         margin: 0 4em 4em;
         width: 65%
     }
 }
 
-/* h1 font az elején + expect és tech egymás mellé mehetne! 
+
+/* h1 font az elején + expect és tech egymás mellé mehetne!
