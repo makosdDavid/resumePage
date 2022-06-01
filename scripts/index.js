@@ -1,6 +1,3 @@
-import { logoEvent, blogEvent, dashboardEvent, wizardEvent } from "./events.js"
+import { logoEvent, } from "./events.js"
 
 logoEvent()
-blogEvent()
-dashboardEvent()
-wizardEvent()

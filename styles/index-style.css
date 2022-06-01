@@ -232,6 +232,15 @@ aside h1 {
     font-weight: 900;
 }
 
+.container-introduction a {
+    color: #F18119;
+}
+
+.container-introduction a:hover,
+.container-introduction a:focus {
+    color: #404040;
+}
+
 
 /*==============
     media
